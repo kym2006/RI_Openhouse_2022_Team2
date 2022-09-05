@@ -9,7 +9,7 @@ Some special moves if we feel like it
 4. Combos
 
 ### Minimum Viable Product
-see dodgeball.glitch.me
+see dodgeball.glitch.me by wu yiwen
 This task list will first contain the steps to get here.
 TBH this is doable by a single guy LOL too little work to do
 
