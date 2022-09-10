@@ -19,7 +19,7 @@ public class Spawn_Boss : MonoBehaviour
             Vector3 noise = new Vector3(Random.Range(-7f, 7f), Random.Range(-7f, 7f), 0f);
             GameObject new_BadBoss = Instantiate(BadBoss, transform.position + noise, Quaternion.identity); // spawns bullet at the boss's position
             new_BadBoss.GetComponent<Bad_Boss_Manager>().Target = player;
-            yield return new WaitForSeconds(2.0f); //Interval between different bosses, current set at 2 seconds
+            yield return new WaitForSeconds(20.0f); //Interval between different bosses, current set at 2 seconds
         }
     }
     void Update()

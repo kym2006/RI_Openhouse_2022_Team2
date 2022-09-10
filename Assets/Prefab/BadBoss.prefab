@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6808065967809034807}
   - component: {fileID: 6808065967809034793}
   - component: {fileID: -6029855642950428544}
+  - component: {fileID: 520994635315486185}
   m_Layer: 0
   m_Name: BadBoss
   m_TagString: Untagged
@@ -115,3 +116,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &520994635315486185
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808065967809034806}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
